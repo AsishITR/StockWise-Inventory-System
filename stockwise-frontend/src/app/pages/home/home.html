@@ -1,0 +1,109 @@
+<!-- Header is globally injected via app-root -->
+
+  <!-- HERO / BANNER -->
+  <section class="bg-gradient-to-b from-sky-50 to-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+      <div class="grid lg:grid-cols-2 items-center gap-10">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">Inventory made simple</h1>
+          <p class="mt-4 text-lg text-gray-600">Monitor stock levels, streamline purchasing, and gain real-time insights across your warehouses.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a routerLink="/products" class="inline-flex items-center rounded-md bg-sky-600 px-4 py-2.5 text-white font-semibold shadow hover:bg-sky-500">Start managing</a>
+            <a href="#features" class="inline-flex items-center rounded-md border px-4 py-2.5 text-gray-800 hover:bg-gray-50">View features</a>
+          </div>
+          <div class="mt-10 grid grid-cols-3 gap-6 text-center">
+            <div>
+              <div class="text-2xl font-bold text-gray-900">99.9%</div>
+              <div class="text-sm text-gray-500">Uptime</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-gray-900">500k+</div>
+              <div class="text-sm text-gray-500">SKUs tracked</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-gray-900">24/7</div>
+              <div class="text-sm text-gray-500">Support</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] w-full overflow-hidden rounded-xl border bg-white shadow">
+            <picture>
+              <source srcset="/images/hero.avif" />
+              <img src="https://images.unsplash.com/photo-1749244768351-2726dc23d26c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGludmVudG9yeXxlbnwwfHwwfHx8MA%3D%3D" alt="Inventory banner" class="h-full w-full object-cover"/>
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (left text, right image) -->
+  <section id="about" class="py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Know what you have, everywhere</h2>
+          <p class="mt-4 text-gray-600">Unify inventory across stores and warehouses. Track incoming purchase orders, stock transfers, and sales—all in one dashboard.</p>
+          <ul class="mt-6 space-y-3 text-gray-700">
+            <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span> Multi-location inventory</li>
+            <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span> Low-stock alerts and auto-reorder</li>
+            <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span> SKU-level analytics and forecasting</li>
+          </ul>
+        </div>
+        <div>
+          <div class="aspect-[4/3] overflow-hidden rounded-xl border bg-white shadow">
+            <picture>
+              <source srcset="/images/about.avif" />
+              <img src="https://plus.unsplash.com/premium_photo-1681426710520-7c56c9f563d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW52ZW50b3J5fGVufDB8fDB8fHww" alt="Warehouse shelves" class="h-full w-full object-cover"/>
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES GRID -->
+  <section id="features" class="py-16 bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900">Everything you need</h2>
+      <p class="mt-2 text-gray-600">Powerful modules to run procurement, warehousing, and sales smoothly.</p>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Real-time stock</div>
+          <p class="mt-2 text-gray-600">Accurate on-hand, committed, and available quantities across locations.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Purchasing</div>
+          <p class="mt-2 text-gray-600">Manage suppliers, POs, and receiving with status tracking.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Sales & fulfillment</div>
+          <p class="mt-2 text-gray-600">Reserve stock, pick/pack/ship, and update channels instantly.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Transfers</div>
+          <p class="mt-2 text-gray-600">Move inventory between sites with approvals and audit trails.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Alerts & automation</div>
+          <p class="mt-2 text-gray-600">Automated reorder points and notifications by SKU and location.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-6 shadow-sm">
+          <div class="text-sky-600 font-semibold">Analytics</div>
+          <p class="mt-2 text-gray-600">Demand forecasting, inventory turns, and profitability reports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 lg:py-20 bg-sky-600">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+      <h3 class="text-white text-3xl font-bold">Be in control of your stock</h3>
+      <p class="mt-2 text-sky-100">Try StockWise today and prevent stockouts before they happen.</p>
+      <a routerLink="/products" class="mt-6 inline-flex rounded-md bg-white px-4 py-2.5 font-semibold text-sky-700 shadow hover:bg-sky-50">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Footer is globally injected via app-root -->
